@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Mono';
+    src: url(../fonts/monof55.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galyon';
+    src: url(../fonts/Galyon-Book.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Westmeath';
+    src: url(../fonts/Westmeath.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Official';
+    src: url(../fonts/OfficialBook.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magic Retro';
+    src: url(../fonts/Magic\ Retro.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Market Deco';
+    src: url(../fonts/Market_Deco.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-color: #F4E0B9;
+    background-image: url(../img/wp10760714-rainbow-retro-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+header h1{
+    font-family: 'Magic Retro';
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    color: #2b2b2b;
+}
+
+header h5{
+    font-family: 'Market Deco';
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2b2b2b;
+    padding-bottom: 30%;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logo{
+    margin-right: auto;
+    font-size: bold;
+    font-size: 24px;
+    color: #2b2b2b;
+    margin-left: 14px;
+}
+
+header nav ul li{
+    font-size: 16px;
+    font-family: 'Market Deco';
+    font-weight: 100;
+    margin: 2%;
+    display: table;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #2b2b2b;
+    transition: all 0.2s ease-in-out;
+}
+
+#li{
+    transition: all 0.2s ease-in-out; 
+}
+
+#li:hover{
+    transform: scale(1.1);
+}
+
+#jordan_logo:hover{
+    color: #BF2A2A;
+    transform: scale(1.1);
+}
+
+#converse_logo:hover{
+    color: #F2CA50;
+    transform: scale(1.1);
+}
+
+#adidas_logo:hover{
+    color: #D9843B;
+    transform: scale(1.1);
+}
+
+#nike_logo:hover{
+    color: #7ABFB3;
+    transform: scale(1.1);
+}  
+
+#jordan{
+    background-image: url(../img/Background.jpg);
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+/* #jordan .jordan_content{
+    display: flex;
+} */
+
+#jordan h2{
+    font-family: 'Westmeath';
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    color: #2b2b2b;
+    margin-left: 5%;
+}
+
+.content_jordan p{
+    font-family: 'Galyon';
+    font-size: 1.1em;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    padding: 0% 2% 2% 2%;
+    color: #2b2b2b;
+    max-width: 60%;
+    flex: 1;
+    /* float: left; */
+}
+
+.content_jordan h3{
+    font-family: 'Westmeath';
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    color: #2b2b2b;
+    margin-left: 5%;
+}
+
+#jordan_pic{
+    width: 32%;
+    height: 32%;
+    padding: 0% 2% 2% 2%;
+    margin-right: 5%;
+}
+
+.column{
+    float: left;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.column p{
+    font-family: 'Galyon';
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #2b2b2b;
+    margin-left: 0;
+    margin-bottom: 5%;
+}
+
+.column h3{
+    font-family: 'Westmeath';
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    display: flex;
+    color: #2b2b2b;
+    margin-bottom: 5%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#jordan .row .column p{
+    justify-content: center;
+    align-items: center;
+}
+
+#jordanpic{
+    width: 40%;
+    height: 40%;
+    display: table;
+    margin-left: 15%;
+    margin-top: 1%;
+    border-radius: 10%; 
+}
+
+#captionpic{
+    width: 40%;
+    height: 40%;
+    display: table;
+    margin-left:27%;
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+    font-family: 'Galyon';
+    font-style: italic;
+    font-size: 1em;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+#jordan1pic{
+    width: 90%;
+    height: 100%;
+    display: table;
+    margin-top: 1%;
+    border-radius: 10%; 
+}
+
+#jordan3pic{
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin-top: 1%;
+    border-radius: 10%; 
+}
+
+.column h4{
+    font-family: 'Westmeath';
+    font-size: 1.4em;
+    letter-spacing: 4px;
+    display: flex;
+    color: #2b2b2b;
+    margin-bottom: 5%;
+}
+
+#ache4{
+    font-family: 'Westmeath';
+    font-size: 1.4em;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: flex-start;
+    color: #2b2b2b;
+    margin-bottom: 3%;
+    padding-left: 5%;
+}
+
+#jordan h3{
+    font-family: 'Westmeath';
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: #2b2b2b;
+}
+
+#jordanoffpic{
+    width: 100%;
+    height: 100%;
+    display: table;
+    border-radius: 10%;
+    margin-left: 5%;
+}
+
+#jordantravispic{
+    width: 100%;
+    height: 100%;
+    display: table;
+    border-radius: 10%;
+}
+
+.gradient{
+    background: linear-gradient(to bottom, #FFF9E7, #F2CA50);
+}
+
+#converse{
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: #F2CA50;
+}
+
+#converse h2{
+    font-family: 'Westmeath';
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    color: #2b2b2b;
+    margin-left: 5%;
+}
+
+footer{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #FFF9E7, #F2CA50);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Galyon';
+    color: #2b2b2b;
+}
+
+footer a i{
+    justify-content: center;
+    padding-top: 1%;
+    color: #2b2b2b;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a i:hover{
+    color: rgb(123, 45, 123);
+    transform: scale(1.2);
+}
